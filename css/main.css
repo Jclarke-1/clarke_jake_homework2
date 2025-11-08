@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:black;
-    color:white;
+    background-color:#F2F2F2;
+    color:#0D0D0D;
 }
 
 header {
@@ -14,5 +14,138 @@ header {
 }
 
 #main-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
 
+#character-nav {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #0D0D0D;
+    background-image: url(../images/character-nav-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:screen;
+}
+
+#characters {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#characters li {
+    display:inline;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+#characters li img {
+    padding: 20px;
+    border: solid 3px #F2F2F2;
+    transition: all .10s ease-in;
+    background-color: #0D0D0D;
+    box-shadow: 0px 0px 20px 0px rgba(72, 151, 226, 1);
+}
+
+#characters li a {
+    text-decoration: none;
+}
+
+#characters li img:hover {
+    filter: sepia(70%);
+    border-radius: 45%; 
+}
+
+#instructions {
+    padding: 15px;
+}
+
+#instructions h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#instructions p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer {
+    color:#0D0D0D;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#main-footer {
+    height: 60px;
+    background-color: #2d2d2d;
+}
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(242, 242, 242, .90);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+#lightbox1 {
+    background-image: url(../images/amiya-lb.webp);
+    background-size: 40%;
+}
+
+#lightbox2 {
+    background-image: url(../images/thedoctor-lb.png);
+    background-size: 40%;
+}
+
+#lightbox3 {
+    background-image: url(../images/Kaltsit-lb.webp);
+    background-size: 40%;
+}
+
+#lightbox4 {
+    background-image: url(../images/Talulah-lb.webp);
+    background-size: 40%;
+}
+
+.lightbox-close {
+    color:#2d2d2d;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 98vw;
+    transition: all .10s ease-in;
+}
+
+.lightbox-close:hover {
+    color:#c92f3a;
+}
+
+.lightbox div {
+    width: 600px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.lb-heading {
+    font-size: 32px;
+}
+
+.lightbox p {
+    line-height: 26px;
 }
