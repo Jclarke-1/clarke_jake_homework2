@@ -1,6 +1,5 @@
-# clarke_jake_homework2
-This is the Character Build Lightbox Assignment for MMED 1054
-{HW #2 – Character build}
+# Arknights Lightbox Build
+This is the Character Build Lightbox Assignment for MMED 1054 {HW #2 – Character build}
 This the the Lightbox Character Build Assignment for MMED 1054 featuring the characters from Arknights for my build
 ## Installation
 No installation needed
